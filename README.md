@@ -42,6 +42,6 @@ watch -n 5 --color 'tk board --color=always'
 ## Install
 
 ```
-npm install -g .
+npm install -g <path to this github repo>
 tk board
 ```
