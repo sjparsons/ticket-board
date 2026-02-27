@@ -270,7 +270,7 @@ for (const col of columns) {
 }
 
 // Calculate column widths
-const termWidth = process.stdout.columns || 80;
+const termWidth = process.stdout.columns || process.stderr.columns || parseInt(process.env.COLUMNS, 10) || 80;
 const numCols = columns.length;
 const gap = 2;
 const colWidth = Math.floor((termWidth - gap * (numCols - 1)) / numCols);
