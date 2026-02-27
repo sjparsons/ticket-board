@@ -1,0 +1,12 @@
+{
+  "name": "ticket-board",
+  "version": "1.0.0",
+  "description": "Kanban-style board view - plugin for tk (ticket)",
+  "bin": {
+    "ticket-board": "./bin/ticket-board.js"
+  },
+  "scripts": {
+    "test": "node --test 'test/**/*.test.js'"
+  },
+  "license": "MIT"
+}
